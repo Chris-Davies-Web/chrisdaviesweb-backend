@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_menu_menu_items",
+  "info": {
+    "displayName": "menuItem",
+    "icon": "th-list"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}

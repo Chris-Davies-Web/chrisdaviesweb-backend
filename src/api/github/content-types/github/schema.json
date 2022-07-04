@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "githubs",
+  "info": {
+    "singularName": "github",
+    "pluralName": "githubs",
+    "displayName": "Github"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "repo": {
+      "type": "string"
+    }
+  }
+}
